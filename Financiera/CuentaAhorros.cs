@@ -9,7 +9,7 @@ namespace Financiera
     /// <summary>
     /// Clase que representa a una Cuenta de Ahorros para un Cliente
     /// </summary>
-    class CuentaAhorros
+    public class CuentaAhorros
     {
         #region Propiedades         
         /// <summary>
