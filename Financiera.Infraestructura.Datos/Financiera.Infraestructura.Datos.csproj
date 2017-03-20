@@ -52,12 +52,13 @@
     <Compile Include="FinancieraContexto.cs" />
     <Compile Include="Mapeos\ClienteMapeo.cs" />
     <Compile Include="Mapeos\CuentaAhorrosMapeo.cs" />
-    <Compile Include="Migrations\201703152112582_version01.cs" />
-    <Compile Include="Migrations\201703152112582_version01.Designer.cs">
-      <DependentUpon>201703152112582_version01.cs</DependentUpon>
+    <Compile Include="Migrations\201703202103137_DB01.cs" />
+    <Compile Include="Migrations\201703202103137_DB01.Designer.cs">
+      <DependentUpon>201703202103137_DB01.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositorios\RepositorioGeneral.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Financiera\Financiera.csproj">
@@ -70,8 +71,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201703152112582_version01.resx">
-      <DependentUpon>201703152112582_version01.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201703202103137_DB01.resx">
+      <DependentUpon>201703202103137_DB01.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
